@@ -1,0 +1,10 @@
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_1.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_2.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_3.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_4.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_5.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_6.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_7.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_8.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_9.csv
+https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_10.csv
