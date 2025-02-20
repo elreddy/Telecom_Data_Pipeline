@@ -76,7 +76,7 @@ The pipeline integrates multiple technologies to ensure efficiency, scalability,
 
 The project is structured for modularity and efficiency:  
 
-**Telecom_Fraud_Pipeline/** _(Root Directory)_  
+**Telecom_Data_Pipeline/** _(Root Directory)_  
  - **Scripts/** _(Contains Bash,SQL and Python scripts)_  
      - [Extract_CDR_Files.sh](Scripts/Extract_CDR_Files.sh) – Extracts CDR files from source.  
      - [Process_CDR_Files.py](Scripts/Process_CDR_Files.py) – PySpark script for transformations and fraud detection.  
@@ -93,7 +93,60 @@ The project is structured for modularity and efficiency:
  - **Docs/** _(Project documentation)_  
      - [Requirements_Document.docx](Documents/Requirements_Document.docx) – Lists required libraries & configurations.  
      - [Troubleshooting_Document.docx](Documents/Troubleshooting_Document.docx) – Covers common issues & fixes.  
- - README.md – Project documentation.  
+ - README.md – Project documentation.
+
+## **2. DAGs & Execution Flow**  
+
+### **Airflow DAG: `Telecome_pipeline.py`**  
+The pipeline follows this sequence of tasks refer below dag graph in Airflow:
+
+![DagGraph](Dag.PNG)
+
+ **Task 1: Extract CDR Files (`BashOperator`)**  
+  - Downloads raw CDR files to the local storage.  
+
+ **Task 2: Process CDR Files (`SparkSubmitOperator`)**  
+  - Runs the PySpark job to clean, transform, and detect fraud cases.
+
+ **Task 3: Load Audit File Data (`PostgresOperator`)**  
+  - Stores metadata about extracted files into an audit table.
+
+ **Task 4: Move Extracted Files (`BashOperator`)**  
+  - Moves successfully extracted files to an archive directory.  
+
+ **Task 5: Create Data Objects (`PostgresOperator`)**  
+  - Creates necessary tables in PostgreSQL if they don’t already exist.  
+
+ **Task 6: Load CDR Files (`SparkSubmitOperator`)**  
+  - Reads processed files and loads fraud detection results into PostgreSQL.  
+
+ **Task 7: Load Audit Processed File Data (`PostgresOperator`)**  
+  - Stores metadata about processed files into an audit table.  
+
+ **Task 8: Move Processed Files (`BashOperator`)**  
+  - Moves processed CDR files to an archive folder.  
+
+## **3. Execution Flow (Step-by-Step)**  
+
+### **Step 1: Extraction**  
+- CDR files are extracted and stored in Source Directory.  
+- Extraction is logged for tracking purposes.  
+
+### **Step 2: Transformation & Fraud Detection**  
+- PySpark processes raw CDR data to detect fraud.  
+- Transformed data is stored in Processed directory.
+- Rejections also stored in rejections directory.  
+
+### **Step 3: File Management & Auditing**  
+- Extracted files are archived after processing.  
+- Metadata about extracted and processed files is logged in PostgreSQL.  
+
+### **Step 4: Loading into PostgreSQL**  
+- Spark loads transformed CDR data into PostgreSQL.  
+- Audit logs are updated for each processed file.  
+
+### **Step 5: Logging & Monitoring**  
+- Every step logs execution details for debugging and tracking.  
 
 ### **Enhancements & Future Scope**  
 - **Rejection Handling** – The system currently stores duplicate records. Future development will include the implementation of rules to ensure data integrity.
