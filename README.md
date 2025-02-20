@@ -70,7 +70,35 @@ The pipeline integrates multiple technologies to ensure efficiency, scalability,
 - **Bash Scripting** – Automation of file management and logging mechanisms.
 - **Ubuntu** - Operating system and local storage
 - **pgAdmin4** - ERD generation
-- **Lucidchart** - Used for Data flow diagram generation   
+- **Lucidchart** - Used for Data flow diagram generation
+
+## **1. Code Structure**  
+
+The project is structured for modularity and efficiency:  
+
+**Telecom_Fraud_Pipeline/** _(Root Directory)_  
+ - **Scripts/** _(Contains Bash,SQL and Python scripts)_  
+     - [Extract_CDR_Files.sh](Scripts/Extract_CDR_Files.sh) – Extracts CDR files from source.  
+     - [Process_CDR_Files.py](Scripts/Process_CDR_Files.py) – PySpark script for transformations and fraud detection.  
+     - [Move_Extracted_Files.sh](Scripts/Move_Extracted_Files.sh) – Moves extracted files to archive.
+     - [Load_Audit_File_Data.sql](Scripts/Load_Audit_File_Data.sql) - Load audit file data into datbase
+     - [Create_Data_Objects.sql_](Scripts/Create_Data_Objects.sql) - Creates the required tables in database
+     - [Load_CDR_Files.py](Scripts/Load_CDR_Files.py) - Load the processed files data in database
+     - [Load_Audit_ProcessedFile_Data.sql](Scripts/Load_Audit_ProcessedFile_Data.sql) - Load the processed files audit data in database
+ - **DAGs/** _(Airflow DAGs for orchestration)_  
+     - [Telecome_pipeline.py](Dags/Telecome_pipeline.py) – Main DAG orchestrating the pipeline.  
+ - **Logs/** _(Pipeline execution logs)_
+     - [Success_sample.log]() - Sample log for a successful dag run.
+     - [Failure_sample.log](logs/Failure_sample.log) - Sample log for failed dag run.    
+ - **Docs/** _(Project documentation)_  
+     - [Requirements_Document.docx](Documents/Requirements_Document.docx) – Lists required libraries & configurations.  
+     - [Troubleshooting_Document.docx](Documents/Troubleshooting_Document.docx) – Covers common issues & fixes.  
+ - README.md – Project documentation.  
+
+### **Enhancements & Future Scope**  
+- **Rejection Handling** – The system currently stores duplicate records. Future development will include the implementation of rules to ensure data integrity.
+- **DBT Integration (In Progress)** – ELT approach using **dbt for analytics transformations** in PostgreSQL.  
+- **Real-Time Processing (Future Scope)** – Kafka-based fraud detection for real-time alerts.
 
 
 
