@@ -88,7 +88,7 @@ The project is structured for modularity and efficiency:
  - **DAGs/** _(Airflow DAGs for orchestration)_  
      - [Telecome_pipeline.py](Dags/Telecome_pipeline.py) – Main DAG orchestrating the pipeline.  
  - **Logs/** _(Pipeline execution logs)_
-     - [Success_sample.log]() - Sample log for a successful dag run.
+     - [Success_sample.log](logs/Success_sample.log) - Sample log for a successful dag run.
      - [Failure_sample.log](logs/Failure_sample.log) - Sample log for failed dag run.
  - **Images/** _(Results_snippets)_    
  - **Docs/** _(Project documentation)_  
