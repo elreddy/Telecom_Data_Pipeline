@@ -1,0 +1,375 @@
+[2025-02-21 07:46:28] Task E ======================================================================================================================================
+[2025-02-21 07:46:28] Script started. Downloading CDR files...
+[2025-02-21 07:46:28] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_1.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_1_2025-02-21.csv
+--2025-02-21 07:46:28--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_1.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 804816 (786K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_1_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  6%  689K 1s
+    50K .......... .......... .......... .......... .......... 12% 1.06M 1s
+   100K .......... .......... .......... .......... .......... 19% 1.86M 1s
+   150K .......... .......... .......... .......... .......... 25% 2.64M 0s
+   200K .......... .......... .......... .......... .......... 31% 1.85M 0s
+   250K .......... .......... .......... .......... .......... 38% 3.71M 0s
+   300K .......... .......... .......... .......... .......... 44% 2.65M 0s
+   350K .......... .......... .......... .......... .......... 50% 2.11M 0s
+   400K .......... .......... .......... .......... .......... 57% 1.79M 0s
+   450K .......... .......... .......... .......... .......... 63% 1.67M 0s
+   500K .......... .......... .......... .......... .......... 69% 3.20M 0s
+   550K .......... .......... .......... .......... .......... 76% 2.07M 0s
+   600K .......... .......... .......... .......... .......... 82% 2.17M 0s
+   650K .......... .......... .......... .......... .......... 89% 2.74M 0s
+   700K .......... .......... .......... .......... .......... 95% 2.11M 0s
+   750K .......... .......... .......... .....                100% 2.00M=0.4s
+
+2025-02-21 07:46:29 (1.82 MB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_1_2025-02-21.csv’ saved [804816/804816]
+
+[2025-02-21 07:46:29] Successfully downloaded: CDR-Call-Details_1_2025-02-21.csv
+[2025-02-21 07:46:29] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_2.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_2_2025-02-21.csv
+--2025-02-21 07:46:29--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_2.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 804882 (786K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_2_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  6%  510K 1s
+    50K .......... .......... .......... .......... .......... 12%  326K 2s
+   100K .......... .......... .......... .......... .......... 19%  446K 2s
+   150K .......... .......... .......... .......... .......... 25%  527K 1s
+   200K .......... .......... .......... .......... .......... 31%  642K 1s
+   250K .......... .......... .......... .......... .......... 38%  539K 1s
+   300K .......... .......... .......... .......... .......... 44%  564K 1s
+   350K .......... .......... .......... .......... .......... 50%  500K 1s
+   400K .......... .......... .......... .......... .......... 57%  614K 1s
+   450K .......... .......... .......... .......... .......... 63%  598K 1s
+   500K .......... .......... .......... .......... .......... 69%  702K 0s
+   550K .......... .......... .......... .......... .......... 76%  690K 0s
+   600K .......... .......... .......... .......... .......... 82%  450K 0s
+   650K .......... .......... .......... .......... .......... 89%  648K 0s
+   700K .......... .......... .......... .......... .......... 95%  814K 0s
+   750K .......... .......... .......... ......               100%  661K=1.4s
+
+2025-02-21 07:46:32 (549 KB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_2_2025-02-21.csv’ saved [804882/804882]
+
+[2025-02-21 07:46:32] Successfully downloaded: CDR-Call-Details_2_2025-02-21.csv
+[2025-02-21 07:46:32] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_3.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_3_2025-02-21.csv
+--2025-02-21 07:46:32--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_3.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 804919 (786K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_3_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  6%  543K 1s
+    50K .......... .......... .......... .......... .......... 12%  390K 2s
+   100K .......... .......... .......... .......... .......... 19%  433K 1s
+   150K .......... .......... .......... .......... .......... 25%  276K 2s
+   200K .......... .......... .......... .......... .......... 31%  605K 1s
+   250K .......... .......... .......... .......... .......... 38%  610K 1s
+   300K .......... .......... .......... .......... .......... 44%  658K 1s
+   350K .......... .......... .......... .......... .......... 50%  502K 1s
+   400K .......... .......... .......... .......... .......... 57%  587K 1s
+   450K .......... .......... .......... .......... .......... 63%  726K 1s
+   500K .......... .......... .......... .......... .......... 69%  591K 0s
+   550K .......... .......... .......... .......... .......... 76%  593K 0s
+   600K .......... .......... .......... .......... .......... 82%  700K 0s
+   650K .......... .......... .......... .......... .......... 89%  640K 0s
+   700K .......... .......... .......... .......... .......... 95%  588K 0s
+   750K .......... .......... .......... ......               100%  581K=1.5s
+
+2025-02-21 07:46:34 (532 KB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_3_2025-02-21.csv’ saved [804919/804919]
+
+[2025-02-21 07:46:34] Successfully downloaded: CDR-Call-Details_3_2025-02-21.csv
+[2025-02-21 07:46:34] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_4.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_4_2025-02-21.csv
+--2025-02-21 07:46:34--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_4.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 877153 (857K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_4_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  5%  566K 1s
+    50K .......... .......... .......... .......... .......... 11%  366K 2s
+   100K .......... .......... .......... .......... .......... 17%  472K 2s
+   150K .......... .......... .......... .......... .......... 23%  477K 1s
+   200K .......... .......... .......... .......... .......... 29%  539K 1s
+   250K .......... .......... .......... .......... .......... 35%  773K 1s
+   300K .......... .......... .......... .......... .......... 40%  585K 1s
+   350K .......... .......... .......... .......... .......... 46%  547K 1s
+   400K .......... .......... .......... .......... .......... 52%  567K 1s
+   450K .......... .......... .......... .......... .......... 58%  778K 1s
+   500K .......... .......... .......... .......... .......... 64%  699K 1s
+   550K .......... .......... .......... .......... .......... 70%  816K 0s
+   600K .......... .......... .......... .......... .......... 75%  611K 0s
+   650K .......... .......... .......... .......... .......... 81%  752K 0s
+   700K .......... .......... .......... .......... .......... 87%  813K 0s
+   750K .......... .......... .......... .......... .......... 93%  754K 0s
+   800K .......... .......... .......... .......... .......... 99%  726K 0s
+   850K ......                                                100% 12.3T=1.4s
+
+2025-02-21 07:46:36 (612 KB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_4_2025-02-21.csv’ saved [877153/877153]
+
+[2025-02-21 07:46:37] Successfully downloaded: CDR-Call-Details_4_2025-02-21.csv
+[2025-02-21 07:46:37] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_5.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_5_2025-02-21.csv
+--2025-02-21 07:46:37--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_5.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 867635 (847K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_5_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  5%  669K 1s
+    50K .......... .......... .......... .......... .......... 11% 1.03M 1s
+   100K .......... .......... .......... .......... .......... 17% 1.29M 1s
+   150K .......... .......... .......... .......... .......... 23% 1.26M 1s
+   200K .......... .......... .......... .......... .......... 29% 1.62M 1s
+   250K .......... .......... .......... .......... .......... 35% 1.19M 0s
+   300K .......... .......... .......... .......... .......... 41% 1.70M 0s
+   350K .......... .......... .......... .......... .......... 47% 1.25M 0s
+   400K .......... .......... .......... .......... .......... 53% 1.25M 0s
+   450K .......... .......... .......... .......... .......... 59% 1.27M 0s
+   500K .......... .......... .......... .......... .......... 64% 1.18M 0s
+   550K .......... .......... .......... .......... .......... 70% 3.58M 0s
+   600K .......... .......... .......... .......... .......... 76%  862K 0s
+   650K .......... .......... .......... .......... .......... 82% 2.49M 0s
+   700K .......... .......... .......... .......... .......... 88% 1.19M 0s
+   750K .......... .......... .......... .......... .......... 94% 1.94M 0s
+   800K .......... .......... .......... .......... .......   100% 1010K=0.7s
+
+2025-02-21 07:46:38 (1.25 MB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_5_2025-02-21.csv’ saved [867635/867635]
+
+[2025-02-21 07:46:38] Successfully downloaded: CDR-Call-Details_5_2025-02-21.csv
+[2025-02-21 07:46:38] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_6.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_6_2025-02-21.csv
+--2025-02-21 07:46:38--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_6.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 804836 (786K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_6_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  6%  684K 1s
+    50K .......... .......... .......... .......... .......... 12%  660K 1s
+   100K .......... .......... .......... .......... .......... 19% 1.24M 1s
+   150K .......... .......... .......... .......... .......... 25% 1.19M 1s
+   200K .......... .......... .......... .......... .......... 31% 1.30M 1s
+   250K .......... .......... .......... .......... .......... 38% 1.06M 1s
+   300K .......... .......... .......... .......... .......... 44% 1.02M 0s
+   350K .......... .......... .......... .......... .......... 50% 1.22M 0s
+   400K .......... .......... .......... .......... .......... 57%  561K 0s
+   450K .......... .......... .......... .......... .......... 63% 3.70M 0s
+   500K .......... .......... .......... .......... .......... 69%  610K 0s
+   550K .......... .......... .......... .......... .......... 76% 1.34M 0s
+   600K .......... .......... .......... .......... .......... 82% 1.87M 0s
+   650K .......... .......... .......... .......... .......... 89% 1.29M 0s
+   700K .......... .......... .......... .......... .......... 95% 1.31M 0s
+   750K .......... .......... .......... .....                100% 3.81M=0.7s
+
+2025-02-21 07:46:39 (1.05 MB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_6_2025-02-21.csv’ saved [804836/804836]
+
+[2025-02-21 07:46:39] Successfully downloaded: CDR-Call-Details_6_2025-02-21.csv
+[2025-02-21 07:46:39] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_7.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_7_2025-02-21.csv
+--2025-02-21 07:46:39--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_7.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 806113 (787K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_7_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  6%  478K 2s
+    50K .......... .......... .......... .......... .......... 12% 2.67M 1s
+   100K .......... .......... .......... .......... .......... 19% 1.15M 1s
+   150K .......... .......... .......... .......... .......... 25% 1.64M 1s
+   200K .......... .......... .......... .......... .......... 31% 1.27M 1s
+   250K .......... .......... .......... .......... .......... 38% 1.45M 0s
+   300K .......... .......... .......... .......... .......... 44% 1.51M 0s
+   350K .......... .......... .......... .......... .......... 50% 2.45M 0s
+   400K .......... .......... .......... .......... .......... 57% 2.05M 0s
+   450K .......... .......... .......... .......... .......... 63% 1.21M 0s
+   500K .......... .......... .......... .......... .......... 69% 2.43M 0s
+   550K .......... .......... .......... .......... .......... 76% 3.10M 0s
+   600K .......... .......... .......... .......... .......... 82%  588K 0s
+   650K .......... .......... .......... .......... .......... 88% 63.6M 0s
+   700K .......... .......... .......... .......... .......... 95% 1.35M 0s
+   750K .......... .......... .......... .......              100% 2.33M=0.6s
+
+2025-02-21 07:46:41 (1.38 MB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_7_2025-02-21.csv’ saved [806113/806113]
+
+[2025-02-21 07:46:41] Successfully downloaded: CDR-Call-Details_7_2025-02-21.csv
+[2025-02-21 07:46:41] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_8.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_8_2025-02-21.csv
+--2025-02-21 07:46:41--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_8.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 806322 (787K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_8_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  6%  819K 1s
+    50K .......... .......... .......... .......... .......... 12%  308K 2s
+   100K .......... .......... .......... .......... .......... 19%  422K 1s
+   150K .......... .......... .......... .......... .......... 25%  535K 1s
+   200K .......... .......... .......... .......... .......... 31%  560K 1s
+   250K .......... .......... .......... .......... .......... 38%  615K 1s
+   300K .......... .......... .......... .......... .......... 44%  666K 1s
+   350K .......... .......... .......... .......... .......... 50%  645K 1s
+   400K .......... .......... .......... .......... .......... 57%  559K 1s
+   450K .......... .......... .......... .......... .......... 63%  461K 1s
+   500K .......... .......... .......... .......... .......... 69%  469K 0s
+   550K .......... .......... .......... .......... .......... 76%  603K 0s
+   600K .......... .......... .......... .......... .......... 82%  612K 0s
+   650K .......... .......... .......... .......... .......... 88%  674K 0s
+   700K .......... .......... .......... .......... .......... 95%  545K 0s
+   750K .......... .......... .......... .......              100%  647K=1.5s
+
+2025-02-21 07:46:45 (543 KB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_8_2025-02-21.csv’ saved [806322/806322]
+
+[2025-02-21 07:46:45] Successfully downloaded: CDR-Call-Details_8_2025-02-21.csv
+[2025-02-21 07:46:45] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_9.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_9_2025-02-21.csv
+--2025-02-21 07:46:45--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_9.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 805115 (786K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_9_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  6%  498K 1s
+    50K .......... .......... .......... .......... .......... 12%  362K 2s
+   100K .......... .......... .......... .......... .......... 19%  494K 1s
+   150K .......... .......... .......... .......... .......... 25%  528K 1s
+   200K .......... .......... .......... .......... .......... 31%  548K 1s
+   250K .......... .......... .......... .......... .......... 38%  618K 1s
+   300K .......... .......... .......... .......... .......... 44%  668K 1s
+   350K .......... .......... .......... .......... .......... 50%  467K 1s
+   400K .......... .......... .......... .......... .......... 57%  534K 1s
+   450K .......... .......... .......... .......... .......... 63%  422K 1s
+   500K .......... .......... .......... .......... .......... 69%  441K 0s
+   550K .......... .......... .......... .......... .......... 76%  761K 0s
+   600K .......... .......... .......... .......... .......... 82%  725K 0s
+   650K .......... .......... .......... .......... .......... 89%  672K 0s
+   700K .......... .......... .......... .......... .......... 95%  724K 0s
+   750K .......... .......... .......... ......               100%  611K=1.5s
+
+2025-02-21 07:46:47 (542 KB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_9_2025-02-21.csv’ saved [805115/805115]
+
+[2025-02-21 07:46:47] Successfully downloaded: CDR-Call-Details_9_2025-02-21.csv
+[2025-02-21 07:46:47] Downloading: https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_10.csv -> /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_10_2025-02-21.csv
+--2025-02-21 07:46:47--  https://raw.githubusercontent.com/elreddy/Data/refs/heads/main/CDRs/CDR-Call-Details_10.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 806359 (787K) [text/plain]
+Saving to: ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_10_2025-02-21.csv’
+
+     0K .......... .......... .......... .......... ..........  6%  477K 2s
+    50K .......... .......... .......... .......... .......... 12%  379K 2s
+   100K .......... .......... .......... .......... .......... 19%  576K 1s
+   150K .......... .......... .......... .......... .......... 25%  629K 1s
+   200K .......... .......... .......... .......... .......... 31%  583K 1s
+   250K .......... .......... .......... .......... .......... 38%  597K 1s
+   300K .......... .......... .......... .......... .......... 44%  708K 1s
+   350K .......... .......... .......... .......... .......... 50%  665K 1s
+   400K .......... .......... .......... .......... .......... 57%  391K 1s
+   450K .......... .......... .......... .......... .......... 63%  715K 1s
+   500K .......... .......... .......... .......... .......... 69%  451K 0s
+   550K .......... .......... .......... .......... .......... 76%  626K 0s
+   600K .......... .......... .......... .......... .......... 82%  604K 0s
+   650K .......... .......... .......... .......... .......... 88%  785K 0s
+   700K .......... .......... .......... .......... .......... 95%  694K 0s
+   750K .......... .......... .......... .......              100%  799K=1.4s
+
+2025-02-21 07:46:50 (574 KB/s) - ‘/home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_10_2025-02-21.csv’ saved [806359/806359]
+
+[2025-02-21 07:46:50] Successfully downloaded: CDR-Call-Details_10_2025-02-21.csv
+[2025-02-21 07:46:50] Script completed successfully.
+[2025-02-21 07:46:50] End of log for the run.
+[2025-02-21 07:46:50] ======================================================================================================================================
+[2025-02-21 07:47:20] =====================================================================================================================
+[2025-02-21 07:47:32] Task T ===============================================================================================================
+[2025-02-21 07:47:32] Spark session started successfully.
+[2025-02-21 07:47:32]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_5_2025-02-21.csv
+[2025-02-21 07:47:57] File processed: CDR-Call-Details_5_2025-02-21.csv | Total: 10117 | Duplicates Removed: 1987 | Final count: 8130
+[2025-02-21 07:48:05] CDR-Call-Details_5_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=8130
+[2025-02-21 07:48:06] CDR-Call-Details_5_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=1987
+[2025-02-21 07:48:06]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_9_2025-02-21.csv
+[2025-02-21 07:48:09] File processed: CDR-Call-Details_9_2025-02-21.csv | Total: 10117 | Duplicates Removed: 2187 | Final count: 7930
+[2025-02-21 07:48:12] CDR-Call-Details_9_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=7930
+[2025-02-21 07:48:13] CDR-Call-Details_9_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=2187
+[2025-02-21 07:48:13]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_7_2025-02-21.csv
+[2025-02-21 07:48:15] File processed: CDR-Call-Details_7_2025-02-21.csv | Total: 10117 | Duplicates Removed: 3333 | Final count: 6784
+[2025-02-21 07:48:16] CDR-Call-Details_7_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=5007
+[2025-02-21 07:48:17] CDR-Call-Details_7_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=3333
+[2025-02-21 07:48:17]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_2_2025-02-21.csv
+[2025-02-21 07:48:17] File processed: CDR-Call-Details_2_2025-02-21.csv | Total: 10117 | Duplicates Removed: 3333 | Final count: 6784
+[2025-02-21 07:48:19] CDR-Call-Details_2_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=3569
+[2025-02-21 07:48:19] CDR-Call-Details_2_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=3333
+[2025-02-21 07:48:19]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_6_2025-02-21.csv
+[2025-02-21 07:48:20] File processed: CDR-Call-Details_6_2025-02-21.csv | Total: 10117 | Duplicates Removed: 3129 | Final count: 6988
+[2025-02-21 07:48:21] CDR-Call-Details_6_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=5504
+[2025-02-21 07:48:21] CDR-Call-Details_6_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=3129
+[2025-02-21 07:48:21]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_1_2025-02-21.csv
+[2025-02-21 07:48:22] File processed: CDR-Call-Details_1_2025-02-21.csv | Total: 10117 | Duplicates Removed: 118 | Final count: 9999
+[2025-02-21 07:48:23] CDR-Call-Details_1_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=9999
+[2025-02-21 07:48:24] CDR-Call-Details_1_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=118
+[2025-02-21 07:48:24]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_3_2025-02-21.csv
+[2025-02-21 07:48:26] File processed: CDR-Call-Details_3_2025-02-21.csv | Total: 10117 | Duplicates Removed: 3300 | Final count: 6817
+[2025-02-21 07:48:28] CDR-Call-Details_3_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=5026
+[2025-02-21 07:48:28] CDR-Call-Details_3_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=3300
+[2025-02-21 07:48:28]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_4_2025-02-21.csv
+[2025-02-21 07:48:28] File processed: CDR-Call-Details_4_2025-02-21.csv | Total: 10117 | Duplicates Removed: 3333 | Final count: 6784
+[2025-02-21 07:48:30] CDR-Call-Details_4_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=6554
+[2025-02-21 07:48:30] CDR-Call-Details_4_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=3333
+[2025-02-21 07:48:30]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_8_2025-02-21.csv
+[2025-02-21 07:48:30] File processed: CDR-Call-Details_8_2025-02-21.csv | Total: 10117 | Duplicates Removed: 3333 | Final count: 6784
+[2025-02-21 07:48:31] CDR-Call-Details_8_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=6231
+[2025-02-21 07:48:32] CDR-Call-Details_8_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=3333
+[2025-02-21 07:48:32]  Processing CDR_file : /home/lokesh/Telecome_Pipeline/SourceInputDir/2025-02-21/CDR-Call-Details_10_2025-02-21.csv
+[2025-02-21 07:48:32] File processed: CDR-Call-Details_10_2025-02-21.csv | Total: 10121 | Duplicates Removed: 2845 | Final count: 7276
+[2025-02-21 07:48:34] CDR-Call-Details_10_2025-02-21.csv file Data processed and written to directory /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21 | record_count=6236
+[2025-02-21 07:48:34] CDR-Call-Details_10_2025-02-21.csv file Rejections data written to directory /home/lokesh/Telecome_Pipeline/RejectionsDir/Rejectedbatch_2025-02-21 | rejections_count=2845
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-dcd1613b-ad9a-4328-afd6-a7338351e01e-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_1_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-55a72528-f4f2-46be-a072-c468bd6cc94e-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_2_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-621d5c6c-abc3-426c-b347-c9ea91b0f283-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_3_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-a9f91113-adba-4003-8217-659e65d2c9f8-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_4_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-c9935c28-3b80-417e-9b79-664d04bdc6f8-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_5_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-b3361cfe-a18e-4cef-87fc-b36df92052cd-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_6_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-8d5b7de3-0f62-463d-a30b-8554bc0a182e-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_7_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-fa4d0411-574b-4f6a-9a61-c551ab81e954-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_8_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-54e99a4e-0b15-4db6-948c-dac41c876971-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_9_2025-02-21.csv
+[2025-02-21 07:48:34] Renamed /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/part-00000-b459bdc2-7dc3-45af-a31e-bfb7adaf22bf-c000.csv to /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_10_2025-02-21.csv
+[2025-02-21 07:48:34] Spark session closed successfully.
+[2025-02-21 07:48:34] Processing Steps are done.
+[2025-02-21 07:48:34] =====================================================================================================================
+[2025-02-21 07:48:38] Achiving files =======================================================================
+[2025-02-21 07:48:38] - Extracted files moved to archive
+[2025-02-21 07:48:46] =====================================================================================================================
+[2025-02-21 07:48:48] Task L ===============================================================================================================
+[2025-02-21 07:48:48] Spark session started successfully.
+[2025-02-21 07:48:49] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_3_2025-02-21.csv
+[2025-02-21 07:49:08] Date loded successfully into PostgreSQL for file: CDR_Processed_3_2025-02-21.csv | Total records: 7930
+[2025-02-21 07:49:08] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_10_2025-02-21.csv
+[2025-02-21 07:49:11] Date loded successfully into PostgreSQL for file: CDR_Processed_10_2025-02-21.csv | Total records: 6236
+[2025-02-21 07:49:11] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_9_2025-02-21.csv
+[2025-02-21 07:49:13] Date loded successfully into PostgreSQL for file: CDR_Processed_9_2025-02-21.csv | Total records: 3569
+[2025-02-21 07:49:13] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_6_2025-02-21.csv
+[2025-02-21 07:49:15] Date loded successfully into PostgreSQL for file: CDR_Processed_6_2025-02-21.csv | Total records: 8130
+[2025-02-21 07:49:15] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_7_2025-02-21.csv
+[2025-02-21 07:49:17] Date loded successfully into PostgreSQL for file: CDR_Processed_7_2025-02-21.csv | Total records: 5007
+[2025-02-21 07:49:17] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_5_2025-02-21.csv
+[2025-02-21 07:49:19] Date loded successfully into PostgreSQL for file: CDR_Processed_5_2025-02-21.csv | Total records: 5026
+[2025-02-21 07:49:19] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_4_2025-02-21.csv
+[2025-02-21 07:49:21] Date loded successfully into PostgreSQL for file: CDR_Processed_4_2025-02-21.csv | Total records: 6231
+[2025-02-21 07:49:21] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_1_2025-02-21.csv
+[2025-02-21 07:49:22] Date loded successfully into PostgreSQL for file: CDR_Processed_1_2025-02-21.csv | Total records: 5504
+[2025-02-21 07:49:22] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_2_2025-02-21.csv
+[2025-02-21 07:49:24] Date loded successfully into PostgreSQL for file: CDR_Processed_2_2025-02-21.csv | Total records: 9999
+[2025-02-21 07:49:24] Loading Processed file data : /home/lokesh/Telecome_Pipeline/ProcessedDir/Processedbatch_2025-02-21/CDR_Processed_8_2025-02-21.csv
+[2025-02-21 07:49:26] Date loded successfully into PostgreSQL for file: CDR_Processed_8_2025-02-21.csv | Total records: 6554
+[2025-02-21 07:49:26] Data loaded successfully into PostgreSQL database.
+[2025-02-21 07:49:26] Spark session closed successfully.
+[2025-02-21 07:49:26] Loading Steps are done.
+[2025-02-21 07:49:26] =====================================================================================================================
+[2025-02-21 07:49:30] Achiving files =======================================================================
+[2025-02-21 07:49:30] - Processed files moved to archive
