@@ -189,7 +189,9 @@ The following tables showcase the results after fraud detection processing.
 
 ### **Enhancements & Future Scope**  
 - **Rejection Handling** – The system currently stores duplicate records. Future development will include the implementation of rules to ensure data integrity.
-- **DBT Integration (In Progress)** – ELT approach using **dbt for analytics transformations** in PostgreSQL.  
+- **DBT Integration (In Progress)** – ELT approach using **dbt for analytics transformations** in PostgreSQL.
+- **Automated Logging & Monitoring(In Progress)** – Implementing ELK Stack, Prometheus, and Grafana for centralized logging, real-time 
+  monitoring, and alerting. 
 - **Real-Time Processing (Future Scope)** – Kafka-based fraud detection for real-time alerts.
 
 ## About Me  
