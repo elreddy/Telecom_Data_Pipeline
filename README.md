@@ -196,7 +196,7 @@ The following tables showcase the results after fraud detection processing.
 
 ## About Me  
 
-I am a passionate **Data Engineer** with expertise in **SQL, Python, Apache Airflow, PostgreSQL, and Big Data technologies**.  
+I am a passionate **Data Engineer**.  
 I have built **scalable data pipelines** for efficient data processing and transformation.
 **Skills:** Linux/Shell | SQL | Python | Apache Airflow | PostgreSQL | Apache Spark | Kafka  
 **Career Goal:** To work as a **Data Engineer** and contribute to designing robust data architectures.  
